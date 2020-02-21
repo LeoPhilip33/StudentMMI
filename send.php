@@ -47,12 +47,14 @@
                         }
                     else
                         {
-                        $email = "Adresse eMail invalide";
+                            $email = "Adresse email invalide, votre inscription n'a pas été prise en compte => cheh";
+                            echo $email;
                         }
                 }
                 else
                 {
                     $email = "Pas d'email détecté";
+                    echo $email;
                 }
     
             }
