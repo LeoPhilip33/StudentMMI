@@ -9,7 +9,7 @@
         <h1>Bienvenue sur mon site internet</h1>
         <form name="inscription" method="post" action="send.php">
             <div class="bloc">
-                <span id="a">  Entrer votre Nom :</span><input type="text" name="nom" required /><br>
+                <span id="a">  Entrer votre zeufho :</span><input type="text" name="nom" required /><br>
                 <span id="b">Enter votre Prénom :</span><input type="text" name="prenom" required /><br>
                 <span id="c">Enter votre Email :</span><input type="text" name="email" required  /><br>
                 <span id="d">Enter votre Mot de passe :</span><input type="password" name="mdp" required /><br>
