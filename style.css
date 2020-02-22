@@ -14,11 +14,12 @@ body{
 .gauche{
     background-color:#B87A7A;
     width: 15vw;
+    border-radius: 30px 0px 0px 30px;
 }
-
 .droit{
     background-color: white;
     width: 30vw;
+    border-radius: 0px 30px 30px 0px;
 }
 .alignement{
     display: flex;
@@ -38,4 +39,30 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 38px;
+}
+.couleur{
+    color : #B87A7A;
+    text-align: center;
+}
+.gris{
+    color:#B9B9B9;
+    text-align: center;
+}
+.blanc{
+    color:white;
+    margin-left:30px;
+    margin-right:30px;
+}
+#svg{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.degrade1{
+    background-color: #9A6464;
+    height: 20px;
+}
+.degrade2{
+    background-color: #7A4A4A;
+    height: 35px;
+    border-radius: 0px 0px 0px 30px;
 }
