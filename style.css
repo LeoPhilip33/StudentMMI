@@ -12,8 +12,9 @@
 .inscription{
     color:white;
     background-color: #3036DE;
-    padding-top: 100%;
     width:100%;
+    padding-top:50vh;
+    padding-bottom: 50vh;
     text-align:center;
     margin-top:auto;
     transform: rotate(15deg);
