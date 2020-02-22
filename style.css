@@ -1,42 +1,41 @@
-html {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-} 
 body{
-    padding:0;
     margin:0;
+    padding:0;
+    background-color: #C0C0C0;
 }
-.connection{
-    color :#3036DE;
-    width:100%;
-    padding-top:50vh;
-    padding-bottom: 50vh;
-    text-align:center;
-    margin-top:auto;
-    font-size:50px;
-}
-.inscription{
-    color: #FFFFFF;
-    background-color: #3036DE;
-    width:100%;
-    padding-top:50vh;
-    padding-bottom: 50vh;
-    text-align:center;
-    margin-top:auto;
-    font-size:50px;
-
-}
-.page1{
+.register{
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
-#page2{
-    height: 100vh;
-    width: 100vw;
+.gauche{
+    background-color:#B87A7A;
+    width: 15vw;
 }
-#page3{
-    height: 100vh;
-    width: 100vw;
+
+.droit{
+    background-color: white;
+    width: 30vw;
+}
+.alignement{
+    display: flex;
+}
+.nom{
+    margin-right:5%;
+}
+.formulaire{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#button{
+    background-color: #B87A7A;
+    border:1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 38px;
 }
