@@ -7,13 +7,8 @@
     </head>
     <body>
         <div class="box">
-          <div>One</div>
-          <div>Two</div>
-          <div>Three
-              <br>has
-              <br>extra
-              <br>text
-          </div>
+            <div class="connection"><h2> Se connecter </h2></div>
+            <div class="inscription"><h2> S'inscrire </h2></div>
         </div>
     </body>
 </html>
