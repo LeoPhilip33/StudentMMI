@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    vertical-align: middle;
+    height: 50vh;
+}
+.connection{
+    color: #3036DE;
+    width:100%;
+    text-align:center;
+    margin-top:auto;
+}
+.inscription{
+    color:white;
+    background-color: #3036DE;
+    width:100%;
+    padding-top:50vh;
+    padding-bottom: 50vh;
+    text-align:center;
+    margin-top:auto;
+    transform: rotate(15deg);
+}
+.contrer{
+    transform: rotate(-15deg);
+}
