@@ -7,8 +7,8 @@
     </head>
     <body>
         <div class="box">
-            <div class="connection"><h2> Se connecter </h2></div>
-            <div class="inscription"><h2 class="contrer"> S'inscrire </h2></div>
+            <div class="connection"><a href="" id = "bleu" > Se connecter </a></div>
+            <div class="inscription"><a href="#" id = "blanc"> S'inscrire </a></div>
         </div>
     </body>
 </html>

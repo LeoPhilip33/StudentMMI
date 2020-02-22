@@ -1,11 +1,26 @@
+html {
+    margin:0;
+    padding:0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+} 
+body{
+    padding:0;
+    margin:0;
+}
 .box {
     display: flex;
     vertical-align: middle;
     height: 50vh;
 }
+a{
+    text-decoration: none;
+}
 .connection{
-    color: #3036DE;
+    color:#3036DE;
     width:100%;
+    padding-top:50vh;
+    padding-bottom: 50vh;
     text-align:center;
     margin-top:auto;
 }
@@ -17,8 +32,21 @@
     padding-bottom: 50vh;
     text-align:center;
     margin-top:auto;
-    transform: rotate(15deg);
+
 }
-.contrer{
-    transform: rotate(-15deg);
+
+#bleu{
+    color :#3036DE;
+    font-size:50px;
+}
+#blanc{
+    color:white;
+    font-size:50px;
+}
+.file_pdf:active:before {
+	animation: goDown .4s ease-in-out;
+}
+@keyframes goDown {
+	from { top: -6px; }
+	to   { top: 36px; }
 }
