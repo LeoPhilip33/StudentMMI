@@ -7,8 +7,8 @@
     </head>
     <body>
         <div class="box">
-            <div class="connection"><h2> Se connecter </h2></div>
-            <div class="inscription"><h2> S'inscrire </h2></div>
+            <div class="connection" ><h2> Se connecter </h2></div>
+            <div class="inscription"><h2 id="contrer"> S'inscrire </h2></div>
         </div>
     </body>
 </html>
